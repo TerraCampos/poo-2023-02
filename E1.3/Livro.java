@@ -37,4 +37,8 @@ public class Livro {
 		return ano;
 	}
 	
+	public String toString() {
+		return "Titulo: " + titulo + "\nAutor(a): " + autor + "\nEditora: " + editora + "\nAno: " + ano + "\n";
+	}
+	
 }

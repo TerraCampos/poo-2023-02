@@ -23,18 +23,13 @@ public class TestaLivro {
 		livro3.setAno(2018);
 		
 		System.out.println("Livro 1:");
-		System.out.println(livro1.getTitulo());
-		System.out.println(livro1.getAutor());
-		System.out.println(livro1.getEditora() + ", " + livro1.getAno() + "\n");
+		System.out.println(livro1.toString());
 		
 		System.out.println("Livro 2:");
-		System.out.println(livro2.getTitulo());
-		System.out.println(livro2.getAutor());
-		System.out.println(livro2.getEditora() + ", " + livro2.getAno() + "\n");
+		System.out.println(livro2.toString());
 		
 		System.out.println("Livro 3:");
-		System.out.println(livro3.getTitulo());
-		System.out.println(livro3.getAutor());
-		System.out.println(livro3.getEditora() + ", " + livro3.getAno() + "\n");
+		System.out.println(livro3.toString());	
+		
 	}
 }
